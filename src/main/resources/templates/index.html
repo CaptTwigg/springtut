@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>SpringTut</title>
+</head>
+<body>
+<form method="post">
+    <input name="text" type="text" placeholder="Text">
+    <input type="submit" value="submit">
+</form>
+<p th:text="${text}">text</p>
+</body>
+</html>
